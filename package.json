@@ -1,0 +1,20 @@
+{
+  "name": "aura-whatsapp-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lightweight WhatsApp gateway for AURA Supply Chain",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "express": "4.21.2",
+    "pino": "9.6.0",
+    "qrcode": "1.5.4"
+  }
+}
